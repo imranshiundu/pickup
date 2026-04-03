@@ -1,0 +1,18 @@
+name: pickup
+description: |
+  Use this skill when the user says 'pickup', 'where was I',
+  'resume', 'what was I doing', 'continue my work', or asks
+  about a previous task. Also use it when starting any coding
+  or writing task to check for an existing checkpoint first.
+  Call pickup_save_manual when pausing or finishing a task.
+triggers:
+  - "where was I"
+  - "resume"
+  - "what was I working on"
+  - "continue"
+  - "pickup"
+  - on_task_start: true
+  - on_task_end: true
+mcp_server: stdio
+command: "node"
+args: ["/home/imran/Code/My Automations/Waypoint/bridge/dist/index.js"]

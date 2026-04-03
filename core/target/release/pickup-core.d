@@ -1,0 +1,1 @@
+/home/imran/Code/My\ Automations/Waypoint/core/target/release/pickup-core: /home/imran/Code/My\ Automations/Waypoint/core/src/harvester.rs /home/imran/Code/My\ Automations/Waypoint/core/src/ipc.rs /home/imran/Code/My\ Automations/Waypoint/core/src/main.rs /home/imran/Code/My\ Automations/Waypoint/core/src/models.rs /home/imran/Code/My\ Automations/Waypoint/core/src/watcher.rs
